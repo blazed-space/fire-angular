@@ -1,8 +1,8 @@
 [build]
-  command="ng build"
-  publish="dist/fire-angular"
+  publish = "dist/"
+  command = "ng build --prod"
 
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "index.html"
   status = 200
