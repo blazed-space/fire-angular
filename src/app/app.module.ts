@@ -5,10 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
+import { LazyLoadDirective } from './lazyload.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LazyLoadDirective,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
