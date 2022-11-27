@@ -1,8 +1,28 @@
-
 <section class="blz-app">
-  <app-header></app-header>
+  <div class="px-4 py-3 text-gray-100 bg-indigo-600">
+    <div class="text-sm font-medium text-center">
+      The One Solution is <span class="hidden md:inline">a selection of services</span> offered by <a class="hover:underline" href="https://blazed.company/" target="_blank">Blazed Labs LLC</a>.
+    </div>
+  </div>
+  <blz-header></blz-header>
   <main>
     <router-outlet></router-outlet>
   </main>
-  <app-footer></app-footer>
+  <blz-footer></blz-footer>
+</section>
+<section>
+  <input type="checkbox" id="blz-search-modal" class="modal-toggle" />
+  <label for="blz-search-modal" class="modal cursor-pointer">
+    <label class="modal-box relative" for="search-box">
+      <h3 class="text-center text-xl font-bold py-3">
+        Search Blazed
+      </h3>
+      <div class="text-center">
+        <form>
+          <input id="search-box" class="input input-bordered w-full max-w-xs" type="text" />
+          <input class="btn ml-3" value="Search" type="submit" />
+        </form>
+      </div>
+    </label>
+  </label>
 </section>

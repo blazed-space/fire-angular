@@ -1,0 +1,16 @@
+{
+    "buttons": [
+        {
+            "text": "Services",
+            "url": "/services",
+            "icon": "assets/icons/services.svg",
+            "iconClass": "absolute left-0 w-6 h-6 ml-6 md:w-10 md:h-10"
+        },
+        {
+            "text": "Products",
+            "url": "/products",
+            "icon": "assets/icons/products.svg",
+            "iconClass": "absolute right-1 w-6 h-6 mr-5 md:w-10 md:h-10"
+        }
+    ]
+}
