@@ -12,7 +12,7 @@
     margin-top:-5px;
 }
 
-header{
+.header{
     border-bottom: 3px solid rgba(0,0,0,0.2);
     background: #C9D6FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */

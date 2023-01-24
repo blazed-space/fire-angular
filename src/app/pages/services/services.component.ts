@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from 'src/app/shared/app.service';
+
+import { page } from './services.page'; 
 
 @Component({
   selector: 'app-services',
@@ -6,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./services.component.css']
 })
 export class ServicesComponent implements OnInit {
+
+  public page = page;
 
   services = [
     {
@@ -21,8 +26,11 @@ export class ServicesComponent implements OnInit {
       image: "https://blazed.sirv.com/ibis/blazed-world.jpg"
     }
   ];
-  constructor() { }
 
+  constructor(private appService: AppService) {
+    appService.setPage(page);
+  }
+  
   ngOnInit(): void {
   }
 

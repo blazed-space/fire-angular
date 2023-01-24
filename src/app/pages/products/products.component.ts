@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { AppService } from 'src/app/shared/app.service';
+
+import { page } from './products.page'; 
 
 @Component({
   selector: 'app-products',
@@ -16,7 +19,10 @@ export class ProductsComponent implements OnInit {
       description: "Discover a whole new world of wonder and amazement."
     },
   ];
-  constructor() { }
+  
+  constructor(private appService: AppService) {
+    appService.setPage(page);
+  }
 
   ngOnInit(): void {
   }

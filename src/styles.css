@@ -82,6 +82,7 @@ body::-webkit-scrollbar-thumb:hover{
 
 body { 
     font-family: 'Hind Vadodara', sans-serif;
+    overflow: hidden;
 }
 
 h1, h3{

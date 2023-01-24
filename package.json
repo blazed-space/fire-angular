@@ -20,6 +20,8 @@
     "@angular/router": "~13.3.0",
     "@angular/service-worker": "~13.3.0",
     "daisyui": "^2.42.1",
+    "fire-ng": "^1.0.0",
+    "libphonenumber-js": "^1.10.18",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
