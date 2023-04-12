@@ -1,4 +1,4 @@
-import { Config } from 'fire-ng/lib/interfaces/config';
+import { Config } from 'node_modules/fire-ng/lib/interfaces/config';
 
 export const app = {
     title: "Fire for Angular",
